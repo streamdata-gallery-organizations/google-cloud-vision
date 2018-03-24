@@ -1,9 +1,9 @@
-title: Streamdata Gallery
-url: google-cloud-vision.api.streamdata.gallery
+title: Streamdata Gallery Google Cloud Vision
+url: google-cloud-vision.streamdata.gallery
 tag: Google Cloud Vision
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
-github_user: streamdata-gallery-organizations
+github_user: streamdata-gallery
 github_repo: google-cloud-vision
 github_branch: master
 collections:
