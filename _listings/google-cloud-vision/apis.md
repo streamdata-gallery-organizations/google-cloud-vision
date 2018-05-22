@@ -1,5 +1,6 @@
 ---
 name: Google Cloud Vision
+x-slug: google-cloud-vision
 description: Google Cloud Vision API enables developers to understand the content
   of an image by encapsulating powerful machine learning models in an easy to use
   REST API. It quickly classifies images into thousands of categories (e.g., sailboat,
@@ -8,36 +9,42 @@ description: Google Cloud Vision API enables developers to understand the conten
   image catalog, moderate offensive content, or enable new marketing scenarios through
   image sentiment analysis. Analyze images uploaded in the request or integrate with
   your image storage on Google Cloud Storage.
-image: ""
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-vision-what-is-it.png
 x-kinRank: "9"
 x-alexaRank: ""
-tags:
-- Text Recognition
-- Stack Network
-- Object Recognition
-- Google APIs
-- Facial Recognition
-created: "2018-03-25"
-modified: "2018-03-25"
-url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-vision/master/_listings/google-cloud-vision/apis.yaml
+tags: Google Cloud Vision
+created: "2018-05-21"
+modified: "2018-05-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-vision/master/_listings/google-cloud-vision/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Google Cloud Vision API
-  description: Google Cloud Vision API enables developers to understand the content
-    of an image by encapsulating powerful machine learning models in an easy to use
-    REST API
-  image: ""
-  humanURL: ""
-  baseURL: ://vision.googleapis.com//
-  tags:
-  - Text Recognition
-  - Stack Network
-  - Object Recognition
-  - Google APIs
-  - Facial Recognition
+- name: Google Cloud Vision API Run Image Detection
+  x-api-slug: google-cloud-vision-api
+  description: Run image detection and annotation for a batch of images.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-vision-what-is-it.png
+  humanURL: https://cloud.google.com/vision/
+  baseURL: ://vision.googleapis.com////v1/images:annotate
+  tags: Image Detection
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-vision/master/_listings/google-cloud-vision/v1-images-annotate-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-vision/master/_listings/google-cloud-vision/v1imagesannotate-post-openapi.md
+- name: Google Cloud Vision API
+  x-api-slug: google-cloud-vision-api
+  description: Google Cloud Vision API enables developers to understand the content
+    of an image by encapsulating powerful machine learning models in an easy to use
+    REST API. It quickly classifies images into thousands of categories (e.g., sailboat,
+    lion, Eiffel Tower), detects individual objects and faces within images, and finds
+    and reads printed words contained within images. You can build metadata on your
+    image catalog, moderate offensive content, or enable new marketing scenarios through
+    image sentiment analysis. Analyze images uploaded in the request or integrate
+    with your image storage on Google Cloud Storage.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-vision-what-is-it.png
+  humanURL: https://cloud.google.com/vision/
+  baseURL: ://vision.googleapis.com//
+  tags: Google Cloud Vision
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-vision/master/_listings/google-cloud-vision/openapi.md
 x-common:
 - type: x-best-practices
   url: https://cloud.google.com/vision/docs/best-practices
