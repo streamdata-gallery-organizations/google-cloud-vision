@@ -4,7 +4,7 @@ x-collection-name: Google Cloud Vision
 x-complete: 1
 info:
   title: Google Cloud Vision
-  description: integrates-google-vision-features-including-image-labeling-face-logo-and-landmark-detection-optical-character-recognition-ocr-and-detection-of-explicit-content-into-applications
+  description: integrates-google-vision-features-including-image-labeling-face-logo-and-landmark-detection-optical-character-recognition-ocr-and-detection-of-explicit-content-into-applications-
   contact:
     name: Google
     url: https://google.com
