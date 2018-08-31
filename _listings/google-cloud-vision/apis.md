@@ -13,39 +13,28 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Google Cloud Vision
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-30"
+modified: "2018-08-30"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-vision/master/_listings/google-cloud-vision/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Google Cloud Vision API Run Image Detection
-  x-api-slug: google-cloud-vision-api
+- name: Google Cloud Vision - Run Image Detection
+  x-api-slug: v1imagesannotate-post
   description: Run image detection and annotation for a batch of images.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-vision-what-is-it.png
   humanURL: https://cloud.google.com/vision/
-  baseURL: ://vision.googleapis.com////v1/images:annotate
-  tags: Image Detection
+  baseURL: ://vision.googleapis.com//
+  tags: Google APIs, Facial Recognition, Text Recognition, Object Recognition, Stack
+    Network, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-vision/master/_listings/google-cloud-vision/v1imagesannotate-post-openapi.md
-- name: Google Cloud Vision API
-  x-api-slug: google-cloud-vision-api
-  description: Google Cloud Vision API enables developers to understand the content
-    of an image by encapsulating powerful machine learning models in an easy to use
-    REST API. It quickly classifies images into thousands of categories (e.g., sailboat,
-    lion, Eiffel Tower), detects individual objects and faces within images, and finds
-    and reads printed words contained within images. You can build metadata on your
-    image catalog, moderate offensive content, or enable new marketing scenarios through
-    image sentiment analysis. Analyze images uploaded in the request or integrate
-    with your image storage on Google Cloud Storage.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-vision-what-is-it.png
-  humanURL: https://cloud.google.com/vision/
-  baseURL: ://vision.googleapis.com//
-  tags: Google Cloud Vision
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-vision/master/_listings/google-cloud-vision/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://google.cloud.user.accounts.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://google.cloud.vision.stack.network
 - type: x-best-practices
   url: https://cloud.google.com/vision/docs/best-practices
 - type: x-code
